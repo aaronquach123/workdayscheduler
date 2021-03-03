@@ -1,7 +1,16 @@
+* {
+  box-sizing: border-box
+} 
+
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1;
+}
+
+.form-div {
+  display:flex;
+  width: 100%;
 }
 
 textarea{
@@ -10,8 +19,11 @@ textarea{
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  padding: 10px;
+  display: inline-block;
+  width: 100%;
+
 }
+
 
 .jumbotron {
   text-align: center;
@@ -32,7 +44,6 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
   border-top: 1px solid white;;
 }
 
@@ -63,9 +74,31 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
-}
+  display: table-cell;}
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+
+.time-holder {
+  border: black 1px solid;
+  border-left: 0px;
+}
+
+.container {
+  width: 100%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-div {
+width:100%;
+margin-left:0;
+margin-right:0;
+padding-left:0;
+padding-right:0;
+display:inline-block;
+text-align:center
 }
