@@ -58,7 +58,7 @@ window.onload = function() {
     }, 1800000);
     
     // Asks for first input on first startup if not first startup retun localstorage and upload
-    if (localArry.length === null) {
+    if (localArry === null) {
         alert("Input your first schedule")
     } else {
         inputLocalStorageUploader();
